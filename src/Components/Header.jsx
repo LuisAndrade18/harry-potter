@@ -10,7 +10,7 @@ const Header = () => {
       <S.Header>
         <GlobalStyles />
 
-        <S.img2 src={Icon} alt="" />
+        <S.Img2 src={Icon} alt="" />
         <S.Legacy>Hogwarts Legacy</S.Legacy>
         <nav>
           <S.Nav>
