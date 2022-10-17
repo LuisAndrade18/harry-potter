@@ -18,7 +18,7 @@ const Main = () => {
   }, [card]);
 
   return (
-    <S.Caixa2>
+    <>
       {card.splice(0, 10).map((item) => (
         <S.Caixa>
           <figure>
@@ -32,7 +32,7 @@ const Main = () => {
           </S.Listas>
         </S.Caixa>
       ))}
-    </S.Caixa2>
+    </>
   );
 };
 
