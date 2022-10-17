@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <S.Header>
-        <S.Img2 src={Icon} alt="" />
+        <S.ImgTwo src={Icon} alt="" />
         <S.Legacy>Hogwarts Legacy</S.Legacy>
         <nav>
           <S.Nav>

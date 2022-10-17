@@ -18,7 +18,7 @@ export const Nav = styled.ul`
   }
 `;
 
-export const Img2 = styled.img`
+export const ImgTwo = styled.img`
   width: 8%;
   margin-left: 5vh;
   @media (max-width: 768px) {
