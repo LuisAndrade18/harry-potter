@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import Main from "./Main";
 import Icon from "../assets/Icon.png";
 import { GlobalStyles } from "../Styles/Globalstyled";
@@ -7,7 +6,7 @@ import * as S from "../Styles/Styled-Header";
 
 const Header = () => {
   return (
-    <BrowserRouter>
+    <>
       <S.Header>
         <GlobalStyles />
 
@@ -24,7 +23,7 @@ const Header = () => {
         </nav>
       </S.Header>
       <Main />
-    </BrowserRouter>
+    </>
   );
 };
 
