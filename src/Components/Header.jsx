@@ -13,7 +13,7 @@ const Header = () => {
         <S.img2 src={Icon} alt="" />
         <S.Legacy>Hogwarts Legacy</S.Legacy>
         <nav>
-          <S.nav>
+          <S.Nav>
             <S.Hover>Inicio </S.Hover>
             <S.Hover>
               <a
@@ -28,7 +28,7 @@ const Header = () => {
                 Casas
               </a>
             </S.Hover>
-          </S.nav>
+          </S.Nav>
         </nav>
       </S.Header>
       <Main />
