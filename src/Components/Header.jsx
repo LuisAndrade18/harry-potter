@@ -1,15 +1,12 @@
 import React from 'react';
 import Main from './Main';
 import Icon from '../assets/Icon.png';
-import { GlobalStyles } from '../Styles/Globalstyled';
 import * as S from '../Styles/Styled-Header';
 
 const Header = () => {
   return (
     <>
       <S.Header>
-        <GlobalStyles />
-
         <S.Img2 src={Icon} alt="" />
         <S.Legacy>Hogwarts Legacy</S.Legacy>
         <nav>
