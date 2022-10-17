@@ -1,8 +1,8 @@
-import React from "react";
-import Main from "./Main";
-import Icon from "../assets/Icon.png";
-import { GlobalStyles } from "../Styles/Globalstyled";
-import * as S from "../Styles/Styled-Header";
+import React from 'react';
+import Main from './Main';
+import Icon from '../assets/Icon.png';
+import { GlobalStyles } from '../Styles/Globalstyled';
+import * as S from '../Styles/Styled-Header';
 
 const Header = () => {
   return (
@@ -16,9 +16,18 @@ const Header = () => {
           <S.nav>
             <S.Hover>Inicio </S.Hover>
             <S.Hover>
-              <a style={{textDecoration:`none`}} href="https://www.livrobingo.com.br/harry-potter">Historia</a>
+              <a
+                style={{ textDecoration: `none` }}
+                href="https://www.livrobingo.com.br/harry-potter"
+              >
+                Historia
+              </a>
             </S.Hover>
-            <S.Hover><a href="https://segredosdomundo.r7.com/casas-de-hogwarts/">Casas</a></S.Hover>
+            <S.Hover>
+              <a href="https://segredosdomundo.r7.com/casas-de-hogwarts/">
+                Casas
+              </a>
+            </S.Hover>
           </S.nav>
         </nav>
       </S.Header>

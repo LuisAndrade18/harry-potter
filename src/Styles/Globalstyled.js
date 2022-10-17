@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components";
-import Background from "../assets/Background.jpg"
-import Responsivo from "../assets/Responsivo.jpg"
+import { createGlobalStyle } from 'styled-components';
+import Background from '../assets/Background.jpg';
+import Responsivo from '../assets/Responsivo.jpg';
 
 export const GlobalStyles = createGlobalStyle`
 *{
@@ -22,5 +22,4 @@ body{
 }
 
 }
-`
-
+`;

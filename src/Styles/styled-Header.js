@@ -1,5 +1,4 @@
-import styled from "styled-components";
-
+import styled from 'styled-components';
 
 export const Header = styled.div`
   display: flex;
@@ -13,11 +12,10 @@ export const nav = styled.ul`
   font-size: 26px;
   list-style: none;
   margin-top: 2vw;
+  left: 39vw;
   @media (max-width: 768px) {
     display: none;
   }
-
-  left: 39vw;
 `;
 
 export const img2 = styled.img`
@@ -43,7 +41,6 @@ export const Hover = styled.li`
 `;
 
 export const Legacy = styled.h1`
-  
   margin-bottom: 2vw;
   align-items: center;
   font-size: 8vh;

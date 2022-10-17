@@ -1,24 +1,25 @@
-import axios from "axios";
-import React, { useState, useEffect } from "react";
-import * as S from "../Styles/Styled-main";
+import axios from 'axios';
+import React, { useState, useEffect } from 'react';
+import * as S from '../Styles/Styled-main';
 
 const Main = () => {
   const [card, setCard] = useState([]);
 
   useEffect(() => {
-    axios.get(" https://hp-api.herokuapp.com/api/characters")
+    axios
+      .get(' https://hp-api.herokuapp.com/api/characters')
       .then((res) => {
         setCard(res.data);
         console.log(res);
       })
       .catch((err) => {
-        console.log("foi mal meu chefe", err);
+        console.log('foi mal meu chefe', err);
       });
   }, [card]);
 
   return (
     <S.Caixa2>
-      {card.splice(0,10).map((item) => (
+      {card.splice(0, 10).map((item) => (
         <S.Caixa>
           <figure>
             <S.Imagem src={item.image} alt="" />
