@@ -26,7 +26,3 @@ export const Caixa = styled.div`
 export const Listas = styled.ul`
   list-style: none;
 `;
-
-export const Caixa2 = styled.div`
-  flex-wrap: wrap;
-`;
