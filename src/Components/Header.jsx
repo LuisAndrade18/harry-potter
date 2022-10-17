@@ -7,9 +7,10 @@ import * as S from "../Styles/Styled-Header";
 
 const Header = () => {
   return (
-    <>
+    <BrowserRouter>
       <S.Header>
         <GlobalStyles />
+
         <S.img2 src={Icon} alt="" />
         <S.Legacy>Hogwarts Legacy</S.Legacy>
         <nav>
@@ -23,7 +24,7 @@ const Header = () => {
         </nav>
       </S.Header>
       <Main />
-    </>
+    </BrowserRouter>
   );
 };
 

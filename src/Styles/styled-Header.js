@@ -5,7 +5,6 @@ export const Header = styled.div`
   display: flex;
   flex-direction: row;
 `;
-
 export const nav = styled.ul`
   width: 50vw;
   position: absolute;
@@ -14,10 +13,11 @@ export const nav = styled.ul`
   font-size: 26px;
   list-style: none;
   margin-top: 2vw;
-  left: 39vw;
   @media (max-width: 768px) {
     display: none;
   }
+
+  left: 39vw;
 `;
 
 export const img2 = styled.img`
