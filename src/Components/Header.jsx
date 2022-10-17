@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from './Main';
 import Icon from '../assets/Icon.png';
-import * as S from '../Styles/Styled-Header';
+import * as S from '../Styles/StyledHeader';
 
 const Header = () => {
   return (

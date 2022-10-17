@@ -4,6 +4,7 @@ export const Header = styled.div`
   display: flex;
   flex-direction: row;
 `;
+
 export const Nav = styled.ul`
   width: 50vw;
   position: absolute;

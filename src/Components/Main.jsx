@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
-import * as S from '../Styles/Styled-main';
+import * as S from '../Styles/StyledMain';
 
 const Main = () => {
   const [card, setCard] = useState([]);
@@ -22,7 +22,7 @@ const Main = () => {
       {card.splice(0, 10).map((item) => (
         <S.Caixa>
           <figure>
-            <S.Imagem src={item.image} alt="" />
+            <S.Img src={item.image} alt="" />
           </figure>
           <S.Listas>
             <S.Nomes>{item.name}</S.Nomes>
